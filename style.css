@@ -1,0 +1,114 @@
+*{
+    overflow: auto;
+}
+.fond{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.navtitre{
+    background-color: black;
+    color: antiquewhite;
+    display: inline;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.navigation{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+.contenaire{
+    background-color: beige;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    box-shadow:0px 0px 15px 15px black;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.def{
+    text-align: center;
+}
+.definition{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 100%;
+    max-height: 400px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+.position{
+    position: relative;
+}
+
+
+.tableau{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 85px;
+    color: antiquewhite;
+    background-color: #6c829d;
+    opacity: 79%;
+}
+.tableau td{
+    text-align: center;
+    font-size: 14px;
+}
+.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14;
+    border-bottom: 5px solid #6c829d ;
+    margin-right: 10%;
+    padding-right: 100%;
+    padding-bottom: 5px;
+}
+.colonne{
+    width: 45%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.colonne2{
+    float: right;
+}
+.liste{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #6c829d;
+    padding: 5px;
+}
+.section{
+    background-color: #6c829d;
+    width: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+    font-size: 14px;
+    margin: 0px;
+}
+.preparation tr{
+    height: 20px;
+}
